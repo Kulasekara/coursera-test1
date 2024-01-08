@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>module2-solution</title>
+<style>
+	*{
+		box-sizing: border-box;
+
+	}
+	h1{
+		margin-top: 35px;
+		margin-bottom: 45px;
+		text-align: center;
+		font-family: cursive;
+	}
+	
+	.title{
+		text-align: center;
+		height: 40px;
+		width: 100px;
+		float: right;
+		margin-bottom: 10px;
+		margin-top: 1px;
+		margin-right: 1px;
+		border: 1px solid black;
+		font-size: 150%;
+		font-family: cursive;
+	}
+
+	.chicken{
+		background: #f08080;
+		color: black;
+	}
+	.beef{
+		background: #800000;
+		color: white;
+	}
+	.sushi{
+		background: #ffa500;
+		color: black;
+	}
+	p{
+		width: 90%;
+		height: 230px;
+		margin-right: auto;
+		margin-left: auto;
+		font-family: helvetica;
+		color: white;
+		margin-top: 50px;
+		margin-bottom: 10px;
+		color: black;
+		font-family: cursive;
+	}
+	.description{
+			border: 3px solid black;
+			margin: 10px;
+			background: gray;
+	}
+	.row{
+		width: 100%;
+	}
+	@media(min-width: 992px){
+		.col-lg-4{
+			float: left;
+			width: 33%;
+		}
+	}
+	@media(min-width:768px) and (max-width:991px){
+		.col-md-6{
+			float: left;
+			width: 50%;
+		}
+		.col-md-12{
+			float: left;
+			width: 100%;
+		}
+	}
+	@media(max-width:767px){
+		.col-sm-12{
+			float: left;
+			width: 100%;
+		}
+	}
+	p{
+		font-size: 110%;
+	}
+</style>
+</head>
+
+<body>
+<h1>OUR MENU</h1>
+<div class="row">
+	<div class="col-lg-4 col-md-6 col-sm-12">
+		<div class="description">
+			<h3 class="title chicken">Chicken</h3>
+			<p>A chicken noodle soup is a mixture. It is a mixture of noodles, vegetables, chicken in water and cornstarch. It is a mixture as all the components can be identified separately and retain their taste. Moreover, it is a heterogeneous mixture as all the components are not mixed uniformly.</p>
+	</div>
+		
+	</div>
+	<div class="col-lg-4 col-md-6 col-sm-12">
+		<div class="description">
+			<h3 class="title beef">Beef</h3>
+			<p>Beef soup is a liquid-based dish, typically made by simmering beef, vegetables, and sometimes noodles or rice in a seasoned broth. The broth is the defining feature of soup, and it tends to be lighter and more watery compared to stew.</p>
+		</div>
+	</div>
+	<div class="col-lg-4 col-md-12 col-sm-12">
+		<div class="description">
+			<h3 class="title sushi">Sushi</h3>
+			<p>Sushi is a Japanese dish that features medium-grained rice cooked in vinegar, served with raw or cooked seafood and a variety of toppings or fillings. Contrary to popular belief, rice is the main component of sushi, not raw fish.</p>
+		</div>
+	</div>
+	
+</div>
+</body>
+</html>
